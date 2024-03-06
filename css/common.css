@@ -58,6 +58,7 @@ body {
   --SEC_LG: #d9d9d9;
   --BG_p: #d9ff00;
   --sec_s: #a5c3e7;
+  --sec_P: #ffa722;
   --FONT_W: #fff;
   --Font_B: #1a4170;
 }
@@ -152,4 +153,18 @@ a {
   top: 0;
   line-height: 27px;
   text-transform: uppercase;
+}
+
+.C_WH {
+  color: var(--FONT_W);
+}
+
+/*btn*/
+.m_btn {
+  width: 350px;
+  height: 63px;
+  margin: 0 auto;
+  border-radius: 6px;
+  background-color: rgba(26, 65, 112, 0.3);
+  border: 1px solid var(--Font_B);
 }

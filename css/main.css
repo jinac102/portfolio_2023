@@ -6,6 +6,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 /**/
 
 html {
@@ -442,6 +449,25 @@ main > section {
   height: 100%;
 }
 
+#work .work_tit {
+  font-size: 120px;
+  font-family: "GmarketSansMedium";
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#work .work_tit > li {
+  text-align: center;
+  margin: 0 auto;
+}
+#work .work_tit > li a {
+  text-shadow: 0px 0px 3px var(--BG_N);
+  color: var(--FONT_W);
+}
+#work .work_tit > li:hover a {
+  color: var(--BG_N);
+}
+
 .list {
   width: 100vw;
   height: 100%;
@@ -836,6 +862,16 @@ main > section {
   bottom: calc(50% - 70%);
   right: calc(50% - 25%);
   width: 300px;
+}
+.kA_BTN {
+  margin: 0 auto;
+  line-height: 63px;
+  text-align: center;
+}
+#contact .kA_BTN:hover {
+  background-color: var(--Font_B);
+  color: var(--sec_P);
+  font-weight: bold;
 }
 
 /* footer */
