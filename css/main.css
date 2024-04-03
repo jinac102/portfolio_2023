@@ -430,9 +430,7 @@ main > section {
   line-height: 81px;
   text-transform: uppercase;
   color: #1a4170;
-  position: absolute;
-  left: 45px;
-  top: 61px;
+  display: inline-block;
 }
 .ms_R {
   left: 80%;
@@ -442,6 +440,7 @@ main > section {
 /* section2 */
 #work {
   height: auto;
+  padding: 2.5em;
 }
 .content {
   display: flex;
@@ -459,6 +458,7 @@ main > section {
 #work .work_tit > li {
   text-align: center;
   margin: 0 auto;
+  padding-bottom: 27px;
 }
 #work .work_tit > li a {
   text-shadow: 0px 0px 3px var(--BG_N);
